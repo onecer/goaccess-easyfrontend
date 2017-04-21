@@ -88,7 +88,7 @@
                 echo "<tr>";
                 echo "<td>$count .</td>";
                 echo "<td>{$row['logdate']}</td>";
-                echo "<td>{$row['logsize']} MB</td>";
+                echo "<td>{$row['logsize']} Kb</td>";
                 echo "<td><a class=\"btn btn-primary btn-lg\" href=\"/logview.php?id={$row['id']}\" role=\"button\" target='_blank'>查看日志</a></td>";
                 echo "</tr>";
                 $count=$count+1;
