@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Goaccess-LogView</title>>
+    <title>Goaccess-Logview</title>
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <style>
         .container{
@@ -50,6 +50,8 @@
                 </div>
                 <br/>
                 <button type="submit" class="btn btn-primary btn-block">登录</button>
+                <br/>
+                <a class="btn btn-primary btn-block" href="/reg.php" target="_blank">注册</a>
             </form>
         </div>
     </div>
