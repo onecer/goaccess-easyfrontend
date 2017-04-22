@@ -16,10 +16,12 @@ if(!empty($_POST['user'])&&!empty($_POST['pass'])){
     $password=md5(base64_encode(htmlspecialchars(trim($_POST['pass']))));
 
     $mydb=new mydb();
+    //判断用户名重复
+    //懒得判断
     $sql="INSERT INTO `gef_users`(username,password) VALUES ('$username','$password')";
     $result=$mydb->query($sql);
 
-    if($row=mysqli_fetch_array($result)){
+    if($result){
         echo "注册成功";
         $lock_file=fopen('reg.lock',w);
         if(!$lock_file){

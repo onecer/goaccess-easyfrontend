@@ -24,7 +24,7 @@ if($id){
     $sql="SELECT * FROM `gef_infos` WHERE id='$id' LIMIT 1";
     $result=$mydb->query($sql);
     if($row=mysqli_fetch_array($result)){
-        $file_path = $row['path'];
+        $file_path = '../'.$row['path'];
         if(file_exists($file_path)){
             $str = file_get_contents($file_path);
             echo $str;
