@@ -62,7 +62,7 @@
             echo $_SESSION['username'];
         ?>
         </p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">今日实时日志</a></p>
+        <!--p><a class="btn btn-primary btn-lg" href="#" role="button">今日实时日志</a></p-->
     </div>
 </div>
 <div class="container">
