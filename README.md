@@ -5,7 +5,7 @@
 数据库修改mydb.php即可
 
 
-## Installation
+## 安装
 
 1. `git clone https://github.com/onecer/goaccess-easyfrontend.git`
 
@@ -17,7 +17,7 @@
 
 将data.sql 导入数据库
 
-4. 修改makelog.sh 让它定时调用goaccess生成html信息。可以修改下 
+4. 修改makelog.sh 让它定时调用goaccess生成html信息。可以修改下
 
 用法`makelog.sh <logpath>` 比如加到nginx日志分割文件
 
@@ -30,3 +30,13 @@
 ## 注册功能
 
 注册完，请创建reg.lock文件，禁止注册。
+
+## 截图
+
+登录
+
+![login](http://ojz2jzr09.bkt.clouddn.com/blog/goaccess-ft-login.png)
+
+DasdBoard
+
+![dashboard](http://ojz2jzr09.bkt.clouddn.com/blog/goaccess-ft-dashboard.png)
