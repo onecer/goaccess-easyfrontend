@@ -15,6 +15,8 @@
 
 3. 修改`web/mydb.php`配置数据库信息
 
+将data.sql 导入数据库
+
 4. 修改makelog.sh 让它定时调用goaccess生成html信息。可以修改下 
 
 用法`makelog.sh <logpath>` 比如加到nginx日志分割文件
