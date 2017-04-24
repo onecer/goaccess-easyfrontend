@@ -31,7 +31,10 @@ if [ $# != 0 ];then
             done
         ;;
         *)
-            if [ -f $1 ];then
+            if [ $# == 2 ];then
+               makelog $1 $2 
+            fi
+            if [ $#==1 && -f $1 ];then
                 makelog $1 ${yesterday_str} 
             fi
         ;;
