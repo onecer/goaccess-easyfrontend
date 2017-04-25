@@ -31,6 +31,14 @@
 
 注册完，请创建reg.lock文件，禁止注册。
 
+
+
+## 常见问题
+
+1. 出现脚本加入crontab定时执行的时候，结果异常。
+
+往往是有些命令找不到，比如这里，`which goaccess` 看看路径在哪里。`ln -sfn /path/to/goaccess /bin/goaccess` 这样就没问题了
+
 ## 截图
 
 登录
